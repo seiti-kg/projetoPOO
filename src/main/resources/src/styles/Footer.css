@@ -1,0 +1,16 @@
+/* src/styles/Footer.css */
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: #AB886D;
+    color: #f3ebeb;
+    font-size: 14px;
+    border-top: 1px solid #8b6c56;
+}
+
+.footer p {
+    margin: 0;
+    text-align: center;
+}

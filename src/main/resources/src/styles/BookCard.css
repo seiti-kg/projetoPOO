@@ -1,0 +1,17 @@
+/* src/styles/BookCard.css */
+.book-card {
+  width: 120px;
+  text-align: center;
+}
+
+.book-cover {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+  margin-bottom: 8px;
+}
+
+.book-title {
+  font-size: 14px;
+  color: #333;
+}

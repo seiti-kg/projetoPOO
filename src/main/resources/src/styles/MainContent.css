@@ -1,0 +1,59 @@
+.main-content {
+    padding: 20px;
+    background-color: #D6C0B3;
+  }
+  
+  .welcome-section h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .user-reservations h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  /* Estilo para a lista de reservas */
+  .reservation-list {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+  }
+  
+  /* Estilo para cada item de reserva */
+  .reservation-item {
+    background-color: #493628;
+    color: #fff;
+    border-radius: 8px;
+    width: 150px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 14px;
+    transition: box-shadow 0.3s ease;
+    cursor: pointer; /* Adiciona transição para a sombra */
+  }
+  
+  .reservation-item:hover {
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.5); /* Define a sombra ao passar o mouse */
+  }
+  
+  
+  .reservation-item .book-title {
+    color: #ffffff;
+    font-weight: bold;
+    padding: 10px; /* Adiciona espaçamento interno para o texto */
+    text-align: center;
+  }
+  
+  /* Estilo para a data de devolução */
+  .return-date {
+    text-align: center;
+    margin-top: 5px;
+    font-weight: bold;
+    color: #000;
+  }
+  

@@ -1,0 +1,120 @@
+/* Estilo do Header */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 7px;
+  background-color: #D6C0B3;
+  border-bottom: 1px solid #AB886D;
+}
+
+/* Logo e Navegação */
+.logo-nav {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.logo img {
+  height: 40px;
+}
+
+nav {
+  display: flex;
+  gap: 25px;
+}
+
+nav a {
+  color: #f3ebeb;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 700;
+  font-style: italic;
+  padding-left: 25px;
+  transition: 0.3s;
+}
+
+nav a:hover {
+  text-shadow: 0px 4px 8px rgba(0, 0, 0, 0.4);
+}
+
+/* Estilo do Perfil */
+.perfil {
+  position: relative;
+  display: flex;
+  align-items: center;
+  color: #f3ebeb;
+  gap: 8px;
+  cursor: pointer;
+}
+
+.perfil-icon {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.perfil span {
+  font-size: 16px;
+  font-weight: 500;
+  user-select: none;
+}
+
+/* Estilo e animação da seta */
+.arrow-down {
+  width: 12px;
+  height: 12px;
+  transition: transform 0.3s ease;
+}
+
+/* Inclina a seta ao abrir o dropdown */
+.perfil.active .arrow-down {
+  transform: rotate(180deg); /* Gira a seta para cima */
+}
+
+/* Estilo do Dropdown */
+.dropdown-menu {
+  position: absolute;
+  top: 100%; /* Posiciona abaixo do perfil */
+  right: 0;
+  margin-top: 10px;
+  background-color: #ffffff;
+  border: 1px solid #AB886D;
+  border-radius: 4px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 10px 0;
+  min-width: 150px;
+  z-index: 1000;
+}
+
+.dropdown-menu a {
+  display: block;
+  padding: 10px 20px;
+  color: #333;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.dropdown-menu a:hover {
+  background-color: #f0f0f0;
+}
+
+
+/* Estilo do Botão de Login */
+.login-button {
+  background-color: #ffffff;
+  color: #333;
+  border: 1px solid #AB886D;
+  border-radius: 4px;
+  padding: 8px 16px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.login-button:hover {
+  background-color: #f3ebeb;
+  color: #000;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}

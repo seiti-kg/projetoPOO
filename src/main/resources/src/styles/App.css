@@ -1,0 +1,15 @@
+/* src/styles/App.css */
+.container {
+  padding: 20px;
+  background-color: #f5e6de;
+  color: #333;
+}
+
+.container h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.container section {
+  margin-bottom: 30px;
+}
